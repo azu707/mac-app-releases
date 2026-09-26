@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>TextProcessor</title>
+        <item>
+            <title>1.1.0</title>
+            <pubDate>Sat, 26 Sep 2026 09:02:06 GMT</pubDate>
+            <sparkle:version>202609261801</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[Sparkleによる自動アップデートに対応]]></description>
+            <enclosure url="https://github.com/azu707/mac-app-releases/releases/download/textprocessor-v1.1.0/TextProcessor-1.1.0.zip" type="application/octet-stream" sparkle:edSignature="kf4BgSXUZMTBI14wd5vCQdXcCIfJJGt2IVNj178eo6oZ32ApRcfWFSi4g07PGO871HrWyqPQJ1o65OUrIG7wBQ==" length="1182588"/>
+        </item>
+    </channel>
+</rss>
