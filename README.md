@@ -50,8 +50,13 @@ mac-app-releases/
 
 ## 別の Mac でリリース作業をする場合
 
-秘密鍵をキーチェーンに取り込む。
+普段リリースしない Mac では不要。
 
-```bash
-"$(scripts/sparkle-tools.sh)/generate_keys" --account <app-slug> -f <app-slug>-private-key.txt
-```
+1. アプリのソースリポジトリと本リポジトリを `~/repos` に clone する
+2. パスワードマネージャーに保管した秘密鍵をファイルに書き出し、キーチェーンに取り込む（取り込んだらファイルは削除する）
+
+   ```bash
+   "$(scripts/sparkle-tools.sh)/generate_keys" --account <app-slug> -f <app-slug>-private-key.txt
+   ```
+
+3. Xcode に Apple ID でサインインしておく（Personal Team で署名するため）
