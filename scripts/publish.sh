@@ -13,6 +13,9 @@ SLUG="${1:?使い方: scripts/publish.sh <app-slug> <path/to/App.app> [リリー
 APP_PATH="${2:?使い方: scripts/publish.sh <app-slug> <path/to/App.app> [リリースノート]}"
 NOTES="${3:-}"
 
+# 後で cd するため絶対パスにしておく
+APP_PATH="$(cd "$(dirname "$APP_PATH")" && pwd)/$(basename "$APP_PATH")"
+
 REPO="azu707/mac-app-releases"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SPARKLE_BIN="$("$ROOT/scripts/sparkle-tools.sh")"
