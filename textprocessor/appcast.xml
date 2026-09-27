@@ -3,6 +3,15 @@
     <channel>
         <title>TextProcessor</title>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Sun, 27 Sep 2026 01:56:09 GMT</pubDate>
+            <sparkle:version>202609271055</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <description><![CDATA[翻訳エンジンをCodex/Claudeから選択できるようにしました（メニューの「翻訳エンジン」）。gpt-5.4-mini の廃止で翻訳できなくなっていた問題を修正（Codex のモデルを gpt-6-luna に更新）。]]></description>
+            <enclosure url="https://github.com/azu707/mac-app-releases/releases/download/textprocessor-v1.2.0/TextProcessor-1.2.0.zip" type="application/octet-stream" sparkle:edSignature="z3CJRovQKFDxsxDjGBUrfDI7rxBGnQcHljmCa2+wEbwIkWWVQQ5C++dNFwLEjRMdeHDz6gZoH4//sawArtlnAA==" length="1195697"/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Sat, 26 Sep 2026 09:02:06 GMT</pubDate>
             <sparkle:version>202609261801</sparkle:version>
