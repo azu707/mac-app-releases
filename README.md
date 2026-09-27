@@ -22,3 +22,4 @@ mac-app-releases/
 | アプリ | slug | appcast |
 |---|---|---|
 | TextProcessor | `textprocessor` | [appcast.xml](https://azu707.github.io/mac-app-releases/textprocessor/appcast.xml) |
+| Collie | `collie` | [appcast.xml](https://azu707.github.io/mac-app-releases/collie/appcast.xml) |
