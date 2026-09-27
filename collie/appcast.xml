@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Collie</title>
+        <item>
+            <title>0.1.5</title>
+            <pubDate>Sun, 27 Sep 2026 10:04:22 GMT</pubDate>
+            <sparkle:version>202609271903</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Collie 0.1.5 (b4b96ef)]]></description>
+            <enclosure url="https://github.com/azu707/mac-app-releases/releases/download/collie-v0.1.5/Collie-0.1.5.zip" type="application/octet-stream" sparkle:edSignature="dAOCBTIOmdHm65MisA+M/zh59S+9mzi2b4lPBKCLJB/9b5oXneUV2r7mtzXpLxauiW00LaewuJsqcZVb2RofCQ==" length="5394707"/>
+        </item>
+    </channel>
+</rss>
